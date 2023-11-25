@@ -10,8 +10,7 @@ body {
 .iframe-container {
     position: relative;
     background-color: #08312a; /* Green background color */
-    width: 80%; /* Adjust width as needed */
-    max-width: 800px; /* Set a maximum width if necessary */
+    width: 100%; /* Adjust width as needed */
     padding-top: 56.2225%;
     overflow: hidden;
 }
