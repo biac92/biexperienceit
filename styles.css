@@ -28,6 +28,6 @@ iframe {
 
 @media  {
     .iframe-container {
-        width: 10%; /* Adjust width for smaller screens */
+        width: 100%; /* Adjust width for smaller screens */
     }
 }
