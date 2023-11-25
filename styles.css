@@ -27,12 +27,7 @@ iframe {
 }
 
 @media (max-width: 600px) {
-    .iframe-container {
-        max-width: 100%; /* Allow the container to take the full width */
-        padding-top: 0;
-        height: auto; /* Automatically adjust the height */
-        display: flex;
-        align-items: center; /* Center vertically */
-        justify-content: center; /* Center horizontally */
+    iframe {
+        height: auto; /* Allow the iframe to adjust its height based on content */
     }
 }
