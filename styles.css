@@ -28,11 +28,11 @@ iframe {
 
 @media (max-width: 600px) {
     .iframe-container {
-        max-width: 100%; /* Allow the container to take the full width */
-        padding-top: 0;
-        height: auto; /* Automatically adjust the height */
+        /* Center the container using flexbox */
         display: flex;
-        align-items: center; /* Center vertically */
-        justify-content: center; /* Center horizontally */
+        align-items: center;
+        justify-content: center;
+        padding-top: 0; /* Remove the padding top for centering */
+        height: 100vh; /* Set full viewport height */
     }
 }
