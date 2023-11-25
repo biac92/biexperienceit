@@ -26,8 +26,8 @@ iframe {
     margin: 0;
 }
 
-@media (max-width: 600px) {
+@media  {
     .iframe-container {
-        width: 90%; /* Adjust width for smaller screens */
+        width: 10%; /* Adjust width for smaller screens */
     }
 }
