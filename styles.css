@@ -33,6 +33,6 @@ iframe {
         align-items: center;
         justify-content: center;
         padding-top: 0; /* Remove the padding top for centering */
-        height: 100vh; /* Set full viewport height */
+        height: auto; /* Set full viewport height */
     }
 }
