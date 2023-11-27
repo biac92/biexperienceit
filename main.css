@@ -1,29 +1,12 @@
-.testimonial-container {
-  width: 100%;
-  height: auto;
-  display: flex;
-  overflow: hidden;
-}
-.testimonial {
-  flex: 0 0 auto;
-  margin-right: 20px;
-  transition: all 0.5s ease;
-}
+    /* Add your additional styles here */
+    .testimonial-container {
+      display: flex;
+      overflow: hidden;
+      width: 100%;
+    }
 
-@media (max-width: 600px) {
-  .testimonial-container {
-    flex-direction: column;
-  }
-  .testimonial {
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
-}
-
-@keyframes slide {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-100%); }
-}
-.testimonial-container {
-  animation: slide 10s linear infinite;
-}
+    .testimonial {
+      width: 100%;
+      display: flex;
+      transition: transform 0.5s ease;
+    }
