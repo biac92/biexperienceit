@@ -25,5 +25,5 @@
   100% { transform: translateX(-100%); }
 }
 .testimonial-container {
-  animation: slide 5s infinite;
+  animation: slide 30s infinite;
 }
