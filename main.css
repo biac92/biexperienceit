@@ -8,10 +8,10 @@
 }
 
 .section-borders span {
-    height: 5px;
+/*     height: 5px; */
     background: #00E47C;
     width: 40px;
-    display: inline-block;
+/*     display: inline-block; */
     border-radius: 2px;
 }
 
