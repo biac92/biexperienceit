@@ -3,6 +3,8 @@
   height: auto;
   display: flex;
   overflow: hidden;
+  white-space: nowrap;
+  position: relative;
 }
 .testimonial {
   flex: 0 0 auto;
@@ -21,9 +23,9 @@
 }
 
 @keyframes slide {
-  0% { transform: translateX(0); }
+  0% { transform: translateX(100%); }
   100% { transform: translateX(-100%); }
 }
 .testimonial-container {
-  animation: slide 30s infinite;
+  animation: slide 10s linear infinite;
 }
