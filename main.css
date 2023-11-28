@@ -45,7 +45,7 @@
 
 .testimonial-slider q {
    display: inline-block;
-   font: normal 700 50px / 1.25 "Raleway", Helvetica, Arial, Verdana, sans-serif;
+/*    font: normal 700 50px / 1.25 "Raleway", Helvetica, Arial, Verdana, sans-serif; */
    letter-spacing: .5pt;
    text-shadow: 0 5px 10px rgba(0,0,0,.1);
    max-width: 35ch;
