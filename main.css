@@ -45,17 +45,17 @@
 
 .testimonial-slider q {
    display: inline-block;
-/*    font: normal 700 50px / 1.25 "Raleway", Helvetica, Arial, Verdana, sans-serif; */
+   font: italic 400 12px / 1.35 "Raleway", Helvetica, Arial, Verdana, sans-serif;
    letter-spacing: .5pt;
    text-shadow: 0 5px 10px rgba(0,0,0,.1);
    max-width: 35ch;
 }
 
-.testimonial-slider .source {
+/* .testimonial-slider .source {
     margin-top: 25px;
     color: #d9e0f9;
     font: italic 400 30px / 1.35 "Raleway", Helvetica, Arial, Verdana, sans-serif;
-}
+} */
 
 /* KEYFRAME DECLARATIONS */
 @keyframes fade-animation-1 {
