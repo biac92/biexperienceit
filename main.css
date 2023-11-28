@@ -27,20 +27,20 @@
 .testimonial-slider ul.slider li:nth-child(1) {
     opacity: 1;
 
-    -webkit-animation: fade-animation-1 25s infinite;
-            animation: fade-animation-1 25s infinite;
+    -webkit-animation: fade-animation-1 15s infinite;
+            animation: fade-animation-1 15s infinite;
 }
 .testimonial-slider ul.slider li:nth-child(2) {
-    -webkit-animation: fade-animation-2 25s infinite;
-            animation: fade-animation-2 25s infinite;
+    -webkit-animation: fade-animation-2 15s infinite;
+            animation: fade-animation-2 15s infinite;
 }
 .testimonial-slider ul.slider li:nth-child(3) {
-    -webkit-animation: fade-animation-3 25s infinite;
-            animation: fade-animation-3 25s infinite;
+    -webkit-animation: fade-animation-3 15s infinite;
+            animation: fade-animation-3 15s infinite;
 }
 .testimonial-slider ul.slider li:nth-child(4) {
-    -webkit-animation: fade-animation-4 25s infinite;
-            animation: fade-animation-4 25s infinite;
+    -webkit-animation: fade-animation-4 15s infinite;
+            animation: fade-animation-4 15s infinite;
 }
 
 .testimonial-slider q {
