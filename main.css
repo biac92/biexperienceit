@@ -42,6 +42,14 @@
     -webkit-animation: fade-animation-4 15s infinite;
             animation: fade-animation-4 15s infinite;
 }
+.testimonial-slider ul.slider li:nth-child(5) {
+    -webkit-animation: fade-animation-5 15s infinite;
+            animation: fade-animation-5 15s infinite;
+}
+.testimonial-slider ul.slider li:nth-child(6) {
+    -webkit-animation: fade-animation-6 15s infinite;
+            animation: fade-animation-6 15s infinite;
+}
 
 .testimonial-slider q {
    display: inline-block;
@@ -61,67 +69,56 @@
 
 /* KEYFRAME DECLARATIONS */
 @keyframes fade-animation-1 {
-    0%, 25%, 100% {
-        opacity:0
-    }
-    3%, 22% {
-        opacity: 1;
-    }
+    0%, 16%, 100% { opacity: 0; }
+    3%, 13% { opacity: 1; }
 }
+
 @keyframes fade-animation-2 {
-    0%, 25%, 50%, 100% {
-        opacity:0
-    }
-    28%, 47% {
-        opacity: 1;
-    }
+    0%, 33%, 50%, 100% { opacity: 0; }
+    36%, 47% { opacity: 1; }
 }
+
 @keyframes fade-animation-3 {
-    0%, 50%, 75%, 100% {
-        opacity:0
-    }
-    53%, 72% {
-        opacity: 1;
-    }
+    0%, 50%, 66%, 100% { opacity: 0; }
+    53%, 63% { opacity: 1; }
 }
+
 @keyframes fade-animation-4 {
-    0%, 75%, 100% {
-        opacity:0
-    }
-    78%, 97% {
-        opacity: 1;
-    }
+    0%, 66%, 83%, 100% { opacity: 0; }
+    69%, 80% { opacity: 1; }
+}
+
+@keyframes fade-animation-5 {
+    0%, 83%, 100% { opacity: 0; }
+    86%, 97% { opacity: 1; }
+}
+
+@keyframes fade-animation-6 {
+    0%, 100% { opacity: 0; }
+    3%, 97% { opacity: 1; }
 }
 
 @-webkit-keyframes fade-animation-1 {
-    0%, 25%, 100% {
-        opacity:0
-    }
-    3%, 22% {
-        opacity: 1;
-    }
+    0%, 16%, 100% { opacity: 0; }
+    3%, 13% { opacity: 1; }
 }
 @-webkit-keyframes fade-animation-2 {
-    0%, 25%, 50%, 100% {
-        opacity:0
-    }
-    28%, 47% {
-        opacity: 1;
-    }
+    0%, 33%, 50%, 100% { opacity: 0; }
+    36%, 47% { opacity: 1; }
 }
 @-webkit-keyframes fade-animation-3 {
-    0%, 50%, 75%, 100% {
-        opacity:0
-    }
-    53%, 72% {
-        opacity: 1;
-    }
+    0%, 50%, 66%, 100% { opacity: 0; }
+    53%, 63% { opacity: 1; }
 }
 @-webkit-keyframes fade-animation-4 {
-    0%, 75%, 100% {
-        opacity:0
-    }
-    78%, 97% {
-        opacity: 1;
-    }
+    0%, 66%, 83%, 100% { opacity: 0; }
+    69%, 80% { opacity: 1; }
+}
+@-webkit-keyframes fade-animation-5 {
+    0%, 83%, 100% { opacity: 0; }
+    86%, 97% { opacity: 1; }
+}
+@-webkit-keyframes fade-animation-6 {
+    0%, 100% { opacity: 0; }
+    3%, 97% { opacity: 1; }
 }
