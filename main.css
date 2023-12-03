@@ -69,22 +69,22 @@
 
 /* KEYFRAME DECLARATIONS */
 @keyframes fade-animation-1 {
-    0%, 25%, 100% { opacity: 0; }
-    3%, 22% { opacity: 1; }
+    0%, 23%, 100% { opacity: 0; }
+    3%, 18% { opacity: 1; }
 }
 
 @keyframes fade-animation-2 {
-    0%, 25%, 30%, 100% { opacity: 0; }
-    27% { opacity: 1; }
+    0%, 23%, 35%, 100% { opacity: 0; }
+    25%, 31% { opacity: 1; }
 }
 
 @keyframes fade-animation-3 {
-    0%, 33.32%, 45%, 100% { opacity: 0; }
-    42% { opacity: 1; }
+    0%, 38%, 47%, 100% { opacity: 0; }
+    44% { opacity: 1; }
 }
 
 @keyframes fade-animation-4 {
-    0%, 49.98%, 63%, 100% { opacity: 0; }
+    0%, 53%, 63%, 100% { opacity: 0; }
     60% { opacity: 1; }
 }
 
@@ -94,8 +94,8 @@
 }
 
 @keyframes fade-animation-6 {
-    0%, 94%, 100% { opacity: 0; }
-    97% { opacity: 1; }
+    0%, 90%, 100% { opacity: 0; }
+    93% { opacity: 1; }
 }
 
 @-webkit-keyframes fade-animation-1 {
